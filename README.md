@@ -9,11 +9,11 @@ This repository contains a sample implementation of the SIT331 Task 4.1P pass su
   - `RobotCommandsController.cs` / `MapsController.cs` - API controllers
   - `RobotCommandDataAccess.cs` / `MapDataAccess.cs` - persistence layer
   - `4.1P-schema.sql` - database schema dump
-- `SIT331_4.1P /` - contains build output and the model classes
+  - `Models/` - domain models
 
 ## Building
 
-The project targets .NET 9.0, so a compatible SDK is required. After installing the proper .NET SDK run:
+The project targets .NET 8.0, so a compatible SDK is required. After installing the proper .NET SDK run:
 
 ```bash
 dotnet build SIT331_4.1P/4.1P.csproj
