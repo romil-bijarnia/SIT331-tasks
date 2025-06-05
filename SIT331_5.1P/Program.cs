@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen(options =>
         Contact = new OpenApiContact
         {
             Name = "Romil Bijarnia",
-            Email = "s222528574@edu.au"
+            Email = "s222528574@deakin.edu.au"
         },
         Version = "v1"
     });
@@ -39,4 +39,5 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();
