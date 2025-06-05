@@ -1,0 +1,13 @@
+/* Replace default Swagger logo with Deakin logo */
+.swagger-ui .topbar img,
+.swagger-ui .topbar .link img {
+    content: url("/images/deakin-logo.png") !important;
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label select {
+    border-color: #EF1C25;
+}
+
+.swagger-ui .info .title small:last-child {
+    background-color: #EF1C25 !important;
+}
