@@ -1,13 +1,18 @@
-/* Replace default Swagger logo with Deakin logo */
+/* wwwroot/styles/robot.css
+   Deakin-brand tweaks applied on top of any Swagger UI theme */
+
+/* 1 – Swap the Swagger logo for the Deakin logo */
 .swagger-ui .topbar img,
 .swagger-ui .topbar .link img {
     content: url("/images/deakin-logo.png") !important;
 }
 
+/* 2 – Deakin-red accent for the server-select dropdown border */
 .swagger-ui .topbar .download-url-wrapper .select-label select {
     border-color: #EF1C25;
 }
 
+/* 3 – Deakin-red accent for the small “API version” pill */
 .swagger-ui .info .title small:last-child {
     background-color: #EF1C25 !important;
 }
