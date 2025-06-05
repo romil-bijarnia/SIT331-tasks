@@ -1,0 +1,9 @@
+# Ignore .NET build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
