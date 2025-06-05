@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Microsoft.Extensions.Configuration;
 using Npgsql;
 using robot_controller_api.Models;
 
@@ -7,8 +8,19 @@ namespace robot_controller_api.Persistence
 {
     public static class RobotCommandDataAccess
     {
-        private const string CONNECTION_STRING =
-            "Host=localhost;Username=postgres;Password=;Database=sit331";
+        private static readonly string CONNECTION_STRING;
+
+        static RobotCommandDataAccess()
+        {
+            var configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json", optional: true)
+                .AddEnvironmentVariables()
+                .Build();
+
+            CONNECTION_STRING = configuration.GetConnectionString("Default") ??
+                throw new InvalidOperationException(
+                    "Connection string 'Default' not found.");
+        }
 
         public static List<RobotCommand> GetRobotCommands()
         {
