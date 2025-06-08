@@ -1,9 +1,0 @@
-/Users/romilbijarnia/Desktop/4.1P /obj/Debug/net8.0/4.1P.GeneratedMSBuildEditorConfig.editorconfig
-/Users/romilbijarnia/Desktop/4.1P /obj/Debug/net8.0/4.1P.AssemblyInfoInputs.cache
-/Users/romilbijarnia/Desktop/4.1P /obj/Debug/net8.0/4.1P.AssemblyInfo.cs
-/Users/romilbijarnia/Desktop/4.1P /obj/Debug/net8.0/4.1P.csproj.CoreCompileInputs.cache
-/Users/romilbijarnia/Desktop/SIT331_4.1P /obj/Debug/net8.0/4.1P.GeneratedMSBuildEditorConfig.editorconfig
-/Users/romilbijarnia/Desktop/SIT331_4.1P /obj/Debug/net8.0/4.1P.AssemblyInfoInputs.cache
-/Users/romilbijarnia/Desktop/SIT331_4.1P /obj/Debug/net8.0/4.1P.AssemblyInfo.cs
-/Users/romilbijarnia/Desktop/SIT331_4.1P /obj/Debug/net8.0/4.1P.csproj.CoreCompileInputs.cache
-/Users/romilbijarnia/Desktop/SIT331_4.1P /obj/Debug/net8.0/4.1P.sourcelink.json
