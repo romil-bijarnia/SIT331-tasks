@@ -1,0 +1,897 @@
+{
+	"id": "0c0bae37-d7ce-466b-98c8-8cada2d13eaa",
+	"name": "DEMO",
+	"timestamp": "2025-06-07T12:06:34.348Z",
+	"collection_id": "44116803-796dab79-4236-4e39-8565-a3befa1c3f51",
+	"folder_id": 0,
+	"environment_id": "44116803-f672bf08-a819-4bd6-9ef6-823201f58261",
+	"totalPass": 72,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-06-07T12:06:32.109Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "04050c13-f916-4aac-aa8e-fab235b1d266",
+			"name": "robotcommands",
+			"url": "http://localhost:5000/api/robotcommands",
+			"time": 218,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 300ms": true,
+				"Response is an array": true,
+				"Command with id 1 has valid structure": true,
+				"Command with id 2 has valid structure": true,
+				"Command with id 3 has valid structure": true,
+				"Command with id 4 has valid structure": true,
+				"Command with id 5 has valid structure": true,
+				"Command with id 6 has valid structure": true,
+				"Command with id 8 has valid structure": true,
+				"Command with id 12 has valid structure": true,
+				"Command with id 13 has valid structure": true,
+				"Command with id 10 has valid structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 300ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is an array": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Command with id 1 has valid structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Command with id 2 has valid structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Command with id 3 has valid structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Command with id 4 has valid structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Command with id 5 has valid structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Command with id 6 has valid structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Command with id 8 has valid structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Command with id 12 has valid structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Command with id 13 has valid structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Command with id 10 has valid structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				218
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 300ms": true,
+					"Response is an array": true,
+					"Command with id 1 has valid structure": true,
+					"Command with id 2 has valid structure": true,
+					"Command with id 3 has valid structure": true,
+					"Command with id 4 has valid structure": true,
+					"Command with id 5 has valid structure": true,
+					"Command with id 6 has valid structure": true,
+					"Command with id 8 has valid structure": true,
+					"Command with id 12 has valid structure": true,
+					"Command with id 13 has valid structure": true,
+					"Command with id 10 has valid structure": true
+				}
+			]
+		},
+		{
+			"id": "5550deb6-131d-4493-88b0-030550b0ab00",
+			"name": "robotcommands/{id}",
+			"url": "http://localhost:5000/api/robotcommands/2",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response contains required fields": true,
+				"Response fields have correct data types": true,
+				"Dates are not in the future": true
+			},
+			"testPassFailCounts": {
+				"Response contains required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response fields have correct data types": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dates are not in the future": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response contains required fields": true,
+					"Response fields have correct data types": true,
+					"Dates are not in the future": true
+				}
+			]
+		},
+		{
+			"id": "83283f6c-545c-472b-994d-32c8a1b82600",
+			"name": "robotcommands",
+			"url": "http://localhost:5000/api/robotcommands",
+			"time": 188,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response status code is 201": true,
+				"Response body has required fields": true,
+				"createdDate and modifiedDate are in valid format": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body has required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"createdDate and modifiedDate are in valid format": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				188
+			],
+			"allTests": [
+				{
+					"Response status code is 201": true,
+					"Response body has required fields": true,
+					"createdDate and modifiedDate are in valid format": true
+				}
+			]
+		},
+		{
+			"id": "99a38765-de37-4367-a621-a82ea3d39c73",
+			"name": "robotcommands/{id}",
+			"url": "http://localhost:5000/api/robotcommands/10",
+			"time": 168,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Response status code is 204": true,
+				"Response headers contain required fields": true,
+				"Response time is acceptable": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response headers contain required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is acceptable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				168
+			],
+			"allTests": [
+				{
+					"Response status code is 204": true,
+					"Response headers contain required fields": true,
+					"Response time is acceptable": true
+				}
+			]
+		},
+		{
+			"id": "9a0c68fe-b03a-4cf9-801c-b3e551991725",
+			"name": "robotcommands/{id}",
+			"url": "http://localhost:5000/api/robotcommands/12",
+			"time": 2,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Response time is less than 200ms": true,
+				"Response has Date header": true,
+				"Response has Server header": true,
+				"Response has WWW-Authenticate header": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has Date header": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has Server header": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has WWW-Authenticate header": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Response time is less than 200ms": true,
+					"Response has Date header": true,
+					"Response has Server header": true,
+					"Response has WWW-Authenticate header": true
+				}
+			]
+		},
+		{
+			"id": "1c2bc85e-3333-4742-90a2-ec06ce01af4d",
+			"name": "maps",
+			"url": "http://localhost:5000/api/maps",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Response schema matches the expected structure": true,
+				"Validate that 'isSquare' is true for maps with equal rows and columns": true,
+				"Check for non-negative values for 'rows' and 'columns'": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response schema matches the expected structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate that 'isSquare' is true for maps with equal rows and columns": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check for non-negative values for 'rows' and 'columns'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Response schema matches the expected structure": true,
+					"Validate that 'isSquare' is true for maps with equal rows and columns": true,
+					"Check for non-negative values for 'rows' and 'columns'": true
+				}
+			]
+		},
+		{
+			"id": "98b5543c-1201-4cc2-b2e9-f7a229fc2c0a",
+			"name": "maps/{id}",
+			"url": "http://localhost:5000/api/maps/1",
+			"time": 1,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Response has the required fields": true,
+				"The Id must be a non-negative integer": true,
+				"Name is a non-empty string": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has the required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The Id must be a non-negative integer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Response has the required fields": true,
+					"The Id must be a non-negative integer": true,
+					"Name is a non-empty string": true
+				}
+			]
+		},
+		{
+			"id": "9b46a195-44e3-4fb4-870f-9fe68d19aff8",
+			"name": "maps",
+			"url": "http://localhost:5000/api/maps",
+			"time": 2,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response status code is 201": true,
+				"Response has required fields": true,
+				"Id is a non-negative integer": true,
+				"Name must be a non-empty string": true,
+				"Rows and columns must be non-negative integers": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Id is a non-negative integer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name must be a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Rows and columns must be non-negative integers": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 201": true,
+					"Response has required fields": true,
+					"Id is a non-negative integer": true,
+					"Name must be a non-empty string": true,
+					"Rows and columns must be non-negative integers": true
+				}
+			]
+		},
+		{
+			"id": "db7df959-201e-48c8-90f0-ecbefcd0a52b",
+			"name": "maps/{id}",
+			"url": "http://localhost:5000/api/maps/2",
+			"time": 2,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Response status code is 204": true,
+				"Response time is less than 200ms": true,
+				"Response body must be empty (null)": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body must be empty (null)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 204": true,
+					"Response time is less than 200ms": true,
+					"Response body must be empty (null)": true
+				}
+			]
+		},
+		{
+			"id": "1563564f-0a4d-419a-9955-8ae8a074f3eb",
+			"name": "maps/{id}",
+			"url": "http://localhost:5000/api/maps/6",
+			"time": 1,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Response status code is 204": true,
+				"Response has no content for a successful DELETE request": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has no content for a successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 204": true,
+					"Response has no content for a successful DELETE request": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "9c1dea0f-467e-4e1d-9d65-d022efb36878",
+			"name": "users",
+			"url": "http://localhost:5000/api/users",
+			"time": 191,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response contains required fields": true,
+				"Validate that the 'id' is a non-negative integer": true,
+				"Email is in a valid format": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate that the 'id' is a non-negative integer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email is in a valid format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				191
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response contains required fields": true,
+					"Validate that the 'id' is a non-negative integer": true,
+					"Email is in a valid format": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "556c1c65-20a1-4232-b08d-815aa997c2e7",
+			"name": "users/admin",
+			"url": "http://localhost:5000/api/users/admin",
+			"time": 175,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Response is an array with at least one user object": true,
+				"Validate the user object schema": true,
+				"Email field is in a valid email format": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is an array with at least one user object": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the user object schema": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email field is in a valid email format": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				175
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Response is an array with at least one user object": true,
+					"Validate the user object schema": true,
+					"Email field is in a valid email format": true
+				}
+			]
+		},
+		{
+			"id": "e248f357-9e09-4bfb-a940-136fd48cc343",
+			"name": "users/{id}",
+			"url": "http://localhost:5000/api/users/2",
+			"time": 168,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response has the required fields": true,
+				"Email is in a valid format": true,
+				"CreatedDate and ModifiedDate are in a valid date format": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has the required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email is in a valid format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"CreatedDate and ModifiedDate are in a valid date format": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				168
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response has the required fields": true,
+					"Email is in a valid format": true,
+					"CreatedDate and ModifiedDate are in a valid date format": true
+				}
+			]
+		},
+		{
+			"id": "56a47c12-e1a5-4fa2-9dad-60cc694ca681",
+			"name": "users",
+			"url": "http://localhost:5000/api/users",
+			"time": 174,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response status code is 201": true,
+				"Response has the required fields": true,
+				"Email is in a valid format": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has the required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email is in a valid format": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				174
+			],
+			"allTests": [
+				{
+					"Response status code is 201": true,
+					"Response has the required fields": true,
+					"Email is in a valid format": true
+				}
+			]
+		},
+		{
+			"id": "b8384400-be61-470e-a745-e7b20e3f9953",
+			"name": "users/{id}",
+			"url": "http://localhost:5000/api/users/3",
+			"time": 173,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Response status code is 204": true,
+				"Response time is less than 200ms": true,
+				"Response body is empty for 204 status code": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is empty for 204 status code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				173
+			],
+			"allTests": [
+				{
+					"Response status code is 204": true,
+					"Response time is less than 200ms": true,
+					"Response body is empty for 204 status code": true
+				}
+			]
+		},
+		{
+			"id": "3a498040-4975-4e3c-9072-f3367f633f5b",
+			"name": "users/{id}",
+			"url": "http://localhost:5000/api/users/5",
+			"time": 161,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 204": false,
+				"Response should have no content for a successful DELETE request": false,
+				"Response time is less than 200ms": true,
+				"Response body should be empty or null": false
+			},
+			"testPassFailCounts": {
+				"Response status code is 204": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response should have no content for a successful DELETE request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body should be empty or null": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				161
+			],
+			"allTests": [
+				{
+					"Response status code is 204": false,
+					"Response should have no content for a successful DELETE request": false,
+					"Response time is less than 200ms": true,
+					"Response body should be empty or null": false
+				}
+			]
+		},
+		{
+			"id": "8b58129f-9e8a-4018-967a-fce89af68796",
+			"name": "users/{id}",
+			"url": "http://localhost:5000/api/users/3",
+			"time": 169,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Response status code is 204": true,
+				"Response has no content for successful PATCH request": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has no content for successful PATCH request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				169
+			],
+			"allTests": [
+				{
+					"Response status code is 204": true,
+					"Response has no content for successful PATCH request": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1797,
+	"collection": {
+		"requests": [
+			{
+				"id": "04050c13-f916-4aac-aa8e-fab235b1d266",
+				"method": "GET"
+			},
+			{
+				"id": "5550deb6-131d-4493-88b0-030550b0ab00",
+				"method": "GET"
+			},
+			{
+				"id": "83283f6c-545c-472b-994d-32c8a1b82600",
+				"method": "POST"
+			},
+			{
+				"id": "99a38765-de37-4367-a621-a82ea3d39c73",
+				"method": "PUT"
+			},
+			{
+				"id": "9a0c68fe-b03a-4cf9-801c-b3e551991725",
+				"method": "DELETE"
+			},
+			{
+				"id": "1c2bc85e-3333-4742-90a2-ec06ce01af4d",
+				"method": "GET"
+			},
+			{
+				"id": "98b5543c-1201-4cc2-b2e9-f7a229fc2c0a",
+				"method": "GET"
+			},
+			{
+				"id": "9b46a195-44e3-4fb4-870f-9fe68d19aff8",
+				"method": "POST"
+			},
+			{
+				"id": "db7df959-201e-48c8-90f0-ecbefcd0a52b",
+				"method": "PUT"
+			},
+			{
+				"id": "1563564f-0a4d-419a-9955-8ae8a074f3eb",
+				"method": "DELETE"
+			},
+			{
+				"id": "9c1dea0f-467e-4e1d-9d65-d022efb36878",
+				"method": "GET"
+			},
+			{
+				"id": "556c1c65-20a1-4232-b08d-815aa997c2e7",
+				"method": "GET"
+			},
+			{
+				"id": "e248f357-9e09-4bfb-a940-136fd48cc343",
+				"method": "GET"
+			},
+			{
+				"id": "56a47c12-e1a5-4fa2-9dad-60cc694ca681",
+				"method": "POST"
+			},
+			{
+				"id": "b8384400-be61-470e-a745-e7b20e3f9953",
+				"method": "PUT"
+			},
+			{
+				"id": "3a498040-4975-4e3c-9072-f3367f633f5b",
+				"method": "DELETE"
+			},
+			{
+				"id": "8b58129f-9e8a-4018-967a-fce89af68796",
+				"method": "PATCH"
+			}
+		]
+	}
+}
