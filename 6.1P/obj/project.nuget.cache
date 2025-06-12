@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "LwxUXjvgXOk=",
+  "success": true,
+  "projectFilePath": "/Users/romilbijarnia/Desktop/Backend Submissions/6.1P/SIT331_6.1P.csproj",
+  "expectedPackageFiles": [
+    "/Users/romilbijarnia/.nuget/packages/fastmember.signed/1.5.0/fastmember.signed.1.5.0.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/isopoh.cryptography.argon2/2.0.0/isopoh.cryptography.argon2.2.0.0.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/isopoh.cryptography.blake2b/2.0.0/isopoh.cryptography.blake2b.2.0.0.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/isopoh.cryptography.securearray/2.0.0/isopoh.cryptography.securearray.2.0.0.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/microsoft.openapi/1.6.23/microsoft.openapi.1.6.23.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/npgsql/8.0.3/npgsql.8.0.3.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/swashbuckle.aspnetcore/8.1.4/swashbuckle.aspnetcore.8.1.4.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/swashbuckle.aspnetcore.swagger/8.1.4/swashbuckle.aspnetcore.swagger.8.1.4.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/swashbuckle.aspnetcore.swaggergen/8.1.4/swashbuckle.aspnetcore.swaggergen.8.1.4.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/swashbuckle.aspnetcore.swaggerui/8.1.4/swashbuckle.aspnetcore.swaggerui.8.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
