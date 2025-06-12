@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "t29tshevxWI=",
+  "success": true,
+  "projectFilePath": "/Users/romilbijarnia/Desktop/6.1P/4.1P.csproj",
+  "expectedPackageFiles": [
+    "/Users/romilbijarnia/.nuget/packages/fastmember.signed/1.5.0/fastmember.signed.1.5.0.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/romilbijarnia/.nuget/packages/npgsql/8.0.3/npgsql.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
